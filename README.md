@@ -4,10 +4,9 @@ Este es el portafolio del módulo 2 del bootcamp de fundamentos de Ingeniería d
 
 En este espacio se reunen los ejercicios desarrollados en clases, link al repo del proyecto del módulo (PyLearningHub), así como también los conocimientos y experiencias aprendidas en el transcurso.
 
-## ejercicio clase 1
-
-Calculadora básica: Construye un programa que simule una calculadora basica, pero cada operacion (suma, resta, multiplicacion, division) debe estar definida como una funcion diferente. Luego, crear una funcion principal que le pregunte al usuario que operacion desea realizar y la ejecute:
-
+## Clase 1 - AE1
+### #1 Calculadora básica
+Construye un programa que simule una calculadora basica, pero cada operacion (suma, resta, multiplicacion, division) debe estar definida como una funcion diferente. Luego, crear una funcion principal que le pregunte al usuario que operacion desea realizar y la ejecute:
 ```
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
 
@@ -36,7 +35,7 @@ while True:
         elif op == 4: print(f"Resultado: {div(a, b)}")
         #print(f"Resultado: {eval(f'{a}{ops[op]}{b}')}")
 ```
-Versión optimizada con `eval`
+Versión optimizada con `eval`:
 ```
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
 
@@ -60,4 +59,60 @@ while True:
         print("Error: División por cero")
     else:
         print(f"Resultado: {eval(f'{a}{ops[op]}{b}')}")
+```
+### #2 Verifica mayor
+```
+nombre = input("Nombre: ")
+edad = int(input("Edad: "))
+if edad >= 18:
+    print(f"Hola {nombre}, eres mayor de edad")
+else:
+    print(f"Hola {nombre}, eres menor de edad")
+```
+Versión estilizada con asignación de condicional:
+```
+nombre = input("Nombre: ")
+edad = int(input("Edad: "))
+mayor_de_edad = edad >= 18
+if mayor_de_edad:
+    print(f"Hola {nombre}, eres mayor de edad")
+else:
+    print(f"Hola {nombre}, eres menor de edad")
+
+```
+
+## Ejercicio clase 2 - AE2
+### #1 
+```
+nombre = input("Nombre:").capitalize()
+edad_str = input("Edad:")
+try:
+    edad = int(edad_str)
+except ValueError:
+    print(f"edad no valida: {edad_str}")
+    exit()
+paises = ["chile", "argentina", "colombia"]
+pais = input("País:").lower()
+elegible = edad >= 18 and pais in paises
+
+if elegible:
+    print(f"Hola {nombre} de {pais} si puede acceder al beneficio")
+else:
+    print(f"Hola {nombre} de {pais} no puede acceder al beneficio")
+```
+## Ejercicio clase 3 - AE3
+### #1 
+```
+```
+## Ejercicio clase 4 - AE4
+### #1 
+```
+```
+## Ejercicio clase 5 - AE5
+### #1 
+```
+```
+## Ejercicio clase 6 - AE6
+### #1 
+```
 ```
