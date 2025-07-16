@@ -82,7 +82,7 @@ else:
 ```
 
 ## Ejercicio clase 2 - AE2
-### #1 
+### #1 Verifica beneficio
 ```
 nombre = input("Nombre:").capitalize()
 edad_str = input("Edad:")
@@ -101,8 +101,46 @@ else:
     print(f"Hola {nombre} de {pais} no puede acceder al beneficio")
 ```
 ## Ejercicio clase 3 - AE3
-### #1 
+### #1 Verifica beneficio modularizado
 ```
+def ingreso():
+    nombre = input("Nombre:").capitalize()
+    edad_str = input("Edad:")
+    try:
+        edad = int(edad_str)
+    except ValueError:
+        print(f"** ERROR: {nombre} tiene edad no valida: {edad_str}")
+        edad = 0
+    pais = input("País:").capitalize()
+    return nombre, edad, pais
+
+def elegible(edad, pais):
+    paises = ["Chile", "Argentina", "Colombia"]
+    elegible = edad >= 18 and pais in paises
+    return elegible
+
+def mensaje(nombre, edad, pais, elegible):
+    return f"Hola {nombre} ({edad} años) de {pais}, cumple: {elegible}"
+
+def main(**args):
+    if(args):
+        nombre = args.get("nombre", "").capitalize()
+        edad = args.get("edad", 0)
+        try:
+            edad = int(edad)
+        except ValueError:
+            print(f"** ERROR: {nombre} tiene edad no valida: {edad}")
+            edad = 0
+        pais = args.get("pais", "").capitalize()
+    else:
+        nombre, edad, pais = ingreso()
+    es = elegible(edad, pais)
+    print(mensaje(nombre, edad, pais, es))
+
+main() # SIN PARAMETROS
+main(nombre="LAURA", edad="30", pais="ESPAÑA")
+main(nombre="fELIPE", edad="veinte", pais="CHILE")
+main(pais="Colombia", edad=40, nombre="JUan")
 ```
 ## Ejercicio clase 4 - AE4
 ### #1 
