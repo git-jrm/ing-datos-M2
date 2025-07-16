@@ -102,6 +102,7 @@ else:
 ```
 ## Ejercicio clase 3 - AE3
 ### #1 Verifica beneficio modularizado
+`operaciones.py`:
 ```
 def ingreso():
     nombre = input("Nombre:").capitalize()
@@ -137,11 +138,18 @@ def main(**args):
     es = elegible(edad, pais)
     print(mensaje(nombre, edad, pais, es))
 
-main() # SIN PARAMETROS
-main(nombre="LAURA", edad="30", pais="ESPAÑA")
-main(nombre="fELIPE", edad="veinte", pais="CHILE")
-main(pais="Colombia", edad=40, nombre="JUan")
 ```
+`main.py`:
+```
+import operaciones
+
+print(operaciones.main())
+```
+### #2 
+```
+
+```
+
 ## Ejercicio clase 4 - AE4
 ### #1 
 ```
