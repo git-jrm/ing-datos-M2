@@ -4,7 +4,7 @@ Este es el portafolio del módulo 2 del bootcamp de fundamentos de Ingeniería d
 
 En este espacio se reunen los ejercicios desarrollados en clases, los conocimientos y experiencias aprendidas en el transcurso del bootcamp.
 
-Además en este módulo se realizó el proyecto [PyLearningHub](https://github.com/git-jrm/PyLearningHub) (`https://github.com/git-jrm/PyLearningHub`).
+Además en este módulo se realizó el proyecto [PyLearningHub](https://github.com/git-jrm/PyLearningHub).
 
 ## Clase 1 - AE1
 
