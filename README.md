@@ -528,9 +528,16 @@ En este módulo repasamos desde conceptos básicos de programación (calculadora
 
 Este crecimiento logrado a lo largo de todas las actividades, trabajos y ejercicios, ha sido secuencial y ha ido de menos a más.
 
+[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+
 ## Conclusión 🌟
 
 Este **Módulo 2** ha sido un pilar fundamental en nuestra formación, consolidando desde los principios básicos de la programación hasta la maestría en Programación Orientada a Objetos y el manejo avanzado de excepciones. Cada ejercicio y reflexión ha forjado una base sólida, transformando el conocimiento teórico en habilidades prácticas esenciales.
 
 Este crecimiento logrado a lo largo de todas las actividades nos prepara no solo para los siguientes módulos, sino para enfrentar desafíos reales y construir sistemas robustos y escalables en el manejo del lenguaje Python en diversos escenarios de ingeniería de datos. ¡Estamos listos para el próximo nivel! 
 
+[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+
+-
+-
+-
