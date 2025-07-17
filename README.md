@@ -36,17 +36,18 @@ while True:
         #print(f"Resultado: {eval(f'{a}{ops[op]}{b}')}")
 ```
 **💻 Terminal:**
-> python3 01-calc.py
-> Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 2
-> Número 1: 100
-> Número 2: 99
-> Resultado: 1
-> Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 4
-> Número 1: 4
-> Número 2: 0
-> Error: División por cero
-> Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
-
+```Bash
+python3 01-calc.py
+Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 2
+Número 1: 100
+Número 2: 99
+Resultado: 1
+Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 4
+Número 1: 4
+Número 2: 0
+Error: División por cero
+Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
+```
 Versión optimizada con `eval`:
 ```
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
