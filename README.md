@@ -37,7 +37,7 @@ while True:
 ```
 **💻 Terminal:**
 ```Bash
-python3 M2-06-02/01-calc.py
+$ python3 M2-06-02/01-calc.py
 ```
 ```text
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 2
