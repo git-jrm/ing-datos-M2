@@ -252,9 +252,39 @@ auto2.girar("derecha")
 auto2.frenar()
 auto2.estado_actual()
 ```
+### BONUS: diagrama UML
+```
+# BONUS
+def uml_clase_auto():
+    print("UML de Clase: Auto\n")
+    print("┌────────────────────────────┐")
+    print("│           Auto             │")
+    print("├────────────────────────────┤")
+    print("│ - estado: str              │")
+    print("│ - color: str               │")
+    print("│ - peso: float              │")
+    print("│ - tamaño: str              │")
+    print("│ - alto: float              │")
+    print("│ - largo: float             │")
+    print("│ - n_ruedas: int            │")
+    print("│ - n_puertas: int           │")
+    print("│ - tipo: str                │")
+    print("├────────────────────────────┤")
+    print("│ + __init__(...)            │")
+    print("│ + arrancar()               │")
+    print("│ + frenar()                 │")
+    print("│ + acelerar()               │")
+    print("│ + girar(direccion)         │")
+    print("│ + estado_actual()          │")
+    print("└────────────────────────────┘\n")
+    print("Atributo de clase:")
+    print("• ESTADOS_POSIBLES = {'detenido', 'circulando', 'estacionado', 'dañado'}")
+
+uml_clase_auto()
+```
 
 ## Ejercicio clase 6 - AE6
-### #1 Excepción personalizada
+### #1 Excepción personalizada en biblioteca
 ```
 class Libro:
     def __init__(self, titulo, autor, stock):
@@ -303,34 +333,4 @@ finally:
     biblioteca = None
     libro1 = None
     libro2 = None
-```
-### BONUS: diagrama UML
-```
-# BONUS
-def uml_clase_auto():
-    print("UML de Clase: Auto\n")
-    print("┌────────────────────────────┐")
-    print("│           Auto             │")
-    print("├────────────────────────────┤")
-    print("│ - estado: str              │")
-    print("│ - color: str               │")
-    print("│ - peso: float              │")
-    print("│ - tamaño: str              │")
-    print("│ - alto: float              │")
-    print("│ - largo: float             │")
-    print("│ - n_ruedas: int            │")
-    print("│ - n_puertas: int           │")
-    print("│ - tipo: str                │")
-    print("├────────────────────────────┤")
-    print("│ + __init__(...)            │")
-    print("│ + arrancar()               │")
-    print("│ + frenar()                 │")
-    print("│ + acelerar()               │")
-    print("│ + girar(direccion)         │")
-    print("│ + estado_actual()          │")
-    print("└────────────────────────────┘\n")
-    print("Atributo de clase:")
-    print("• ESTADOS_POSIBLES = {'detenido', 'circulando', 'estacionado', 'dañado'}")
-
-uml_clase_auto()
 ```
