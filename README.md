@@ -255,5 +255,51 @@ auto2.estado_actual()
 ## Ejercicio clase 6 - AE6
 ### #1 
 ```
+class Libro:
+    def __init__(self, titulo, autor, stock):
+        self.titulo = titulo
+        self.autor = autor
+        self.stock = stock
 
+class LibroNoDisponibleError(Exception):
+    pass
+
+class Biblioteca:
+    def __init__(self):
+        self.catalogo = {}
+
+    def agregar_libro(self, libro):
+        # self.catalogo[libro.titulo].append(libro) # error : KeyError
+        self.catalogo[libro.titulo] = libro
+
+    def prestar_libro(self, titulo):
+        if titulo not in self.catalogo:
+            raise ValueError("Libro no está en catálogo")
+        libro = self.catalogo[titulo]
+        if libro.stock > 0:
+            libro.stock -= 1
+            print(f"Libro prestado: {titulo}")
+        else:
+            raise LibroNoDisponibleError("No hay stock disponible")
+
+biblioteca = Biblioteca()
+libro1 = Libro("1984", "Orwell", 2)
+libro2 = Libro("Brave New World", "Huxley", 2)
+biblioteca.agregar_libro(libro1)
+biblioteca.agregar_libro(libro2)
+
+try:
+    biblioteca.prestar_libro("1984")
+    biblioteca.prestar_libro("1984")
+    biblioteca.prestar_libro("1984") # Lanza Exception y no sigue
+    biblioteca.prestar_libro("Brave New World")
+except LibroNoDisponibleError as e:
+    print("Error definido:", e)
+except Exception as e:
+    print("Error general:", e)
+finally:
+    print(f"El catálogo implementa tipo de dato: {type(biblioteca.catalogo)}")
+    biblioteca = None
+    libro1 = None
+    libro2 = None
 ```
