@@ -170,7 +170,7 @@ print(f"promedio: {promedio}")
 print(f"aprobaron: {aprobaron}")
 print(f"aprobadas: {aprobadas}")
 ```
-### #2 Imprime mayores, separa menores
+### #2 Alumnos mayores y menores
 ```
 emp = {
     'emp1': {'nombre': 'Ana', 'edad': 28},
@@ -191,7 +191,7 @@ print(f"total: {len(emp)}")
 ```
 
 ## Ejercicio clase 5 - AE5
-### #1 Programación Orientada a Objetos - POO
+### #1 Modelado clase Auto (POO)
 ```
 class Auto():
     ESTADOS_POSIBLES = {"detenido", "circulando", "estacionado", "dañado"}
@@ -252,7 +252,7 @@ auto2.girar("derecha")
 auto2.frenar()
 auto2.estado_actual()
 ```
-### BONUS: diagrama UML
+### BONUS: diagrama UML clase Auto
 ```
 # BONUS
 def uml_clase_auto():
@@ -284,7 +284,7 @@ uml_clase_auto()
 ```
 
 ## Ejercicio clase 6 - AE6
-### #1 Excepción personalizada en biblioteca
+### #1 Excepción personalizada en sistema biblioteca
 ```
 class Libro:
     def __init__(self, titulo, autor, stock):
