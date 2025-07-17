@@ -2,7 +2,7 @@
 
 Este es el portafolio del módulo 2 del bootcamp de fundamentos de Ingeniería de Datos. 🚀
 
-En este espacio se reunen los ejercicios desarrollados en clases, los conocimientos y experiencias aprendidas en el transcurso del bootcamp.
+En este espacio se reunen los ejercicios y `Scripts` desarrollados en clases, los conocimientos y experiencias aprendidas en el transcurso del bootcamp.
 
 Además en este módulo se realizó el proyecto [PyLearningHub](https://github.com/git-jrm/PyLearningHub).
 
