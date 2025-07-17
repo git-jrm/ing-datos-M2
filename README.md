@@ -49,7 +49,7 @@ Error: División por cero
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
 ```
 Versión optimizada con `eval`:
-```
+```Python
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
 
 def suma(a, b):
@@ -74,7 +74,7 @@ while True:
         print(f"Resultado: {eval(f'{a}{ops[op]}{b}')}")
 ```
 ### #2 Verifica mayor
-```
+```Python
 nombre = input("Nombre: ")
 edad = int(input("Edad: "))
 if edad >= 18:
@@ -83,7 +83,7 @@ else:
     print(f"Hola {nombre}, eres menor de edad")
 ```
 Versión estilizada con asignación de condicional:
-```
+```Python
 nombre = input("Nombre: ")
 edad = int(input("Edad: "))
 mayor_de_edad = edad >= 18
@@ -95,7 +95,7 @@ else:
 
 ## Ejercicio clase 2 - AE2
 ### #1 Verifica beneficio
-```
+```Python
 nombre = input("Nombre:").capitalize()
 edad_str = input("Edad:")
 try:
@@ -116,7 +116,7 @@ else:
 ## Ejercicio clase 3 - AE3
 ### #1 Verifica beneficio modularizado
 `operaciones.py`:
-```
+```Python
 def ingreso():
     nombre = input("Nombre:").capitalize()
     edad_str = input("Edad:")
@@ -153,7 +153,7 @@ def main(**args):
 
 ```
 `main.py`:
-```
+```Python
 import operaciones
 
 print(operaciones.main())
@@ -161,7 +161,7 @@ print(operaciones.main())
 
 ## Ejercicio clase 4 - AE4
 ### #1 Promedio y aprobados
-```
+```Python
 notas = []
 notas = [80,60,50,48,59,85,69,47]
 cantidad_notas = len(notas)
@@ -184,7 +184,7 @@ print(f"aprobaron: {aprobaron}")
 print(f"aprobadas: {aprobadas}")
 ```
 ### #2 Alumnos mayores y menores
-```
+```Python
 emp = {
     'emp1': {'nombre': 'Ana', 'edad': 28},
     'emp2': {'nombre': 'Luis', 'edad': 35},
@@ -205,7 +205,7 @@ print(f"total: {len(emp)}")
 
 ## Ejercicio clase 5 - AE5
 ### #1 Modelado clase Auto (POO)
-```
+```Python
 class Auto():
     ESTADOS_POSIBLES = {"detenido", "circulando", "estacionado", "dañado"}
     def __init__(self, estado, color, peso, tamaño, alto, largo, n_ruedas, n_puertas, tipo):
@@ -266,7 +266,7 @@ auto2.frenar()
 auto2.estado_actual()
 ```
 ### BONUS: diagrama UML clase Auto
-```
+```Python
 # BONUS
 def uml_clase_auto():
     print("UML de Clase: Auto\n")
@@ -298,7 +298,7 @@ uml_clase_auto()
 
 ## Ejercicio clase 6 - AE6
 ### #1 Excepción personalizada en sistema biblioteca
-```
+```Python
 class Libro:
     def __init__(self, titulo, autor, stock):
         self.titulo = titulo
