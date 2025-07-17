@@ -78,7 +78,6 @@ if mayor_de_edad:
     print(f"Hola {nombre}, eres mayor de edad")
 else:
     print(f"Hola {nombre}, eres menor de edad")
-
 ```
 
 ## Ejercicio clase 2 - AE2
@@ -100,6 +99,7 @@ if elegible:
 else:
     print(f"Hola {nombre} de {pais} no puede acceder al beneficio")
 ```
+
 ## Ejercicio clase 3 - AE3
 ### #1 Verifica beneficio modularizado
 `operaciones.py`:
@@ -145,20 +145,115 @@ import operaciones
 
 print(operaciones.main())
 ```
-### #2 
-```
-
-```
 
 ## Ejercicio clase 4 - AE4
-### #1 
+### #1 Promedio y aprobados
 ```
+notas = []
+notas = [80,60,50,48,59,85,69,47]
+cantidad_notas = len(notas)
+total_acumulado = 0
+aprobaron = 0
+aprobadas = []
+
+for nota in notas:
+    total_acumulado += nota
+    if nota >= 60:
+        aprobaron += 1
+        aprobadas.append(nota)
+
+# Cálcula promedio
+promedio = total_acumulado / cantidad_notas
+
+# Resultados
+print(f"promedio: {promedio}")
+print(f"aprobaron: {aprobaron}")
+print(f"aprobadas: {aprobadas}")
 ```
+### #2 Imprime mayores, separa menores
+```
+emp = {
+    'emp1': {'nombre': 'Ana', 'edad': 28},
+    'emp2': {'nombre': 'Luis', 'edad': 35},
+    'emp3': {'nombre': 'María', 'edad': 22},
+    'emp4': {'nombre': 'Pedro', 'edad': 40},
+}
+menores = []
+
+for k, v in emp.items():
+    if v['edad'] > 30:
+        print(f"{k} {v['nombre']} es mayor con {v['edad']} años")
+    elif v['edad'] < 30:
+        menores.append(v['nombre'])
+
+print(f"menores: {menores}")
+print(f"total: {len(emp)}")
+```
+
 ## Ejercicio clase 5 - AE5
-### #1 
 ```
+class Auto():
+    ESTADOS_POSIBLES = {"detenido", "circulando", "estacionado", "dañado"}
+    def __init__(self, estado, color, peso, tamaño, alto, largo, n_ruedas, n_puertas, tipo):
+        self.estado = estado
+        self.color = color
+        self.peso = peso
+        self.tamaño = tamaño
+        self.alto = alto
+        self.largo = largo
+        self.n_ruedas = n_ruedas
+        self.n_puertas = n_puertas
+        self.tipo = tipo
+
+    def arrancar(self):
+        if self.estado == "detenido" or self.estado == "estacionado":
+            self.estado = "circulando"
+        else:
+            print(f"imposible arrancar desde '{self.estado}'.")
+
+    def frenar(self):
+        if self.estado == "circulando":
+            self.estado = "detenido"
+        else:
+            print("imposible frenar no circulando")
+
+    def acelerar(self):
+        if self.estado == "circulando":
+            print("acelerando")
+        else:
+            print("imposible acelerar no circulando")
+
+    def girar(self, direccion):
+        if self.estado == "circulando":
+            print(f"automóvil gira a {direccion}.")
+        else:
+            print("imposible girar no circulando")
+
+    def estado_actual(self):
+        print(f"Estado auto {self.color}: {self.estado}")
+
+auto = Auto("detenido","rojo", 1200, "mediano", 1.5, 4.0, 4, 4, "sedán")
+auto.frenar()
+auto.estado_actual()
+auto.arrancar()
+auto.acelerar()
+auto.girar("izquierda")
+auto.girar("derecha")
+auto.girar("izquierda")
+auto.frenar()
+auto.estado_actual()
+
+auto2 = Auto("detenido","azul", 2900, "grande", 5.5, 7.0, 4, 4, "camioneta")
+auto2.estado_actual()
+auto2.arrancar()
+auto2.acelerar()
+auto2.girar("derecha")
+auto2.frenar()
+auto2.estado_actual()
 ```
+
 ## Ejercicio clase 6 - AE6
 ### #1 
 ```
+
 ```
