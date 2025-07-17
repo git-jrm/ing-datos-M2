@@ -387,6 +387,7 @@ Estado auto azul: detenido
 ```
 
 ### BONUS: diagrama UML clase Auto
+> Explicación : Se pide adicionalmente generar diagrama UML:
 ```Python
 # BONUS
 def uml_clase_auto():
@@ -451,6 +452,7 @@ Atributo de clase:
 ## Clase 6 - ejercicio 1
 
 ### Excepción personalizada en sistema biblioteca 📚
+> Explicación : Se pide implementar una excepción personalizada que controle cuando un libro no está disponible: 
 ```Python
 class Libro:
     def __init__(self, titulo, autor, stock):
@@ -500,9 +502,8 @@ finally:
     libro1 = None
     libro2 = None
 ```
-**💻 Terminal:**
+**Instrucción 💻** ejecutar `$ python3 M2-06-13/ejer1.py`
 ```Bash
-$ python3 M2-06-13/ejer1.py      
 Libro prestado: 1984
 Libro prestado: 1984
 Error definido: No hay stock disponible
