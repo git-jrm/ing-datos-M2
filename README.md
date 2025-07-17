@@ -7,7 +7,7 @@ En este espacio se reunen los ejercicios desarrollados en clases, link al repo d
 ## Clase 1 - AE1
 ### #1 Calculadora básica
 Construye un programa que simule una calculadora basica, pero cada operacion (suma, resta, multiplicacion, division) debe estar definida como una funcion diferente. Luego, crear una funcion principal que le pregunte al usuario que operacion desea realizar y la ejecute:
-```
+```Python
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
 
 def suma(a, b):
@@ -35,6 +35,8 @@ while True:
         elif op == 4: print(f"Resultado: {div(a, b)}")
         #print(f"Resultado: {eval(f'{a}{ops[op]}{b}')}")
 ```
+
+
 Versión optimizada con `eval`:
 ```
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
