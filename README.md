@@ -100,6 +100,8 @@ Resultado: 50
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
 ```
 
+> 💡 _Reflexión_ : Este ejercicio fue clave para comprender cómo estructurar funciones y controlar flujos básicos de programa según la entrada del usuario. También reforzó el manejo de errores como la división por cero.
+
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 1 - ejercicio 2
