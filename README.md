@@ -50,8 +50,7 @@ while True:
         elif op == 4: print(f"Resultado: {div(a, b)}")
         #print(f"Resultado: {eval(f'{a}{ops[op]}{b}')}")
 ```
-**Instrucciones 💻**
-ejecutar `$ python3 M2-06-02/01-calc.py`
+**Instrucción 💻** ejecutar `$ python3 M2-06-02/01-calc.py`
 ```bash
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 1
 Número 1: 10
@@ -88,9 +87,8 @@ while True:
     else:
         print(f"Resultado: {eval(f'{a}{ops[op]}{b}')}")
 ```
-**💻 Terminal:**
+**Instrucción 💻** ejecutar `$ python3 M2-06-02/01-calc2.py`
 ```Bash
-$ python3 M2-06-02/01-calc2.py
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 2
 Número 1: 100
 Número 2: 99
@@ -109,6 +107,7 @@ Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
 ## Clase 1 - ejercicio 2
 
 ### Verifica mayor 🔞
+> Explicación : Se pide un código que verifique la mayoría de edad:
 ```Python
 nombre = input("Nombre: ")
 edad = int(input("Edad: "))
@@ -117,9 +116,8 @@ if edad >= 18:
 else:
     print(f"Hola {nombre}, eres menor de edad")
 ```
-**💻 Terminal:**
+**Instrucción 💻** ejecutar `$ python3 M2-06-02/02-mayor.py`
 ```Bash
-$ python3 M2-06-02/02-mayor.py
 Nombre: jose
 Edad: 33
 Hola jose, eres mayor de edad
@@ -134,9 +132,8 @@ if mayor_de_edad:
 else:
     print(f"Hola {nombre}, eres menor de edad")
 ```
-**💻 Terminal:**
+**Instrucción 💻** ejecutar `$ python3 M2-06-02/02-mayor2.py`
 ```Bash
-$ python3 M2-06-02/02-mayor2.py
 Nombre: jose
 Edad: 33
 Hola jose, eres mayor de edad
@@ -149,6 +146,7 @@ Hola jose, eres mayor de edad
 ## Clase 2 - ejercicio 1
 
 ### Verifica beneficio ✅
+> Explicación : Se pide un código que verifique los requisitos para acceder al beneficio, controlando excepciones.
 ```Python
 nombre = input("Nombre:").capitalize()
 edad_str = input("Edad:")
@@ -166,9 +164,8 @@ if elegible:
 else:
     print(f"Hola {nombre} de {pais} no puede acceder al beneficio")
 ```
-**💻 Terminal:**
+**Instrucción 💻** ejecutar `$ python3 M2-06-04/ejer1-except.py`
 ```Bash
-$ python3 M2-06-04/ejer1-except.py
 python3 M2-06-04/ejer1-except.py
 Nombre:jose
 Edad:33
@@ -183,6 +180,7 @@ Hola Jose de chile si puede acceder al beneficio
 ## Clase 3 - ejercicio 1
 
 ### Verifica beneficio modularizado 🔧
+> Explicación : Se pide modularizar el ejercicio anterior:
 `operaciones.py`:
 ```Python
 def ingreso():
@@ -226,9 +224,8 @@ import operaciones
 
 print(operaciones.main())
 ```
-**💻 Terminal:**
-```Bash
-$ python3 M2-06-06/main.py       
+**Instrucción 💻** ejecutar `$ python3 M2-06-06/main.py`
+```Bash    
 Nombre:jose
 Edad:33
 País:chile
@@ -242,6 +239,7 @@ Hola Jose (33 años) de Chile, cumple: True
 ## Clase 4 - ejercicio 1
 
 ### Promedio y aprobados 📊
+> Explicación : Se pide recorrer una lista y obtener promedio y aprobados:
 ```Python
 notas = []
 notas = [80,60,50,48,59,85,69,47]
@@ -264,9 +262,8 @@ print(f"promedio: {promedio}")
 print(f"aprobaron: {aprobaron}")
 print(f"aprobadas: {aprobadas}")
 ```
-**💻 Terminal:**
+**Instrucción 💻** ejecutar `$ python3 M2-06-09/ejer1.py`
 ```Bash
-$ python3 M2-06-09/ejer1.py              
 promedio: 62.25
 aprobaron: 4
 aprobadas: [80, 60, 85, 69]
@@ -279,6 +276,7 @@ aprobadas: [80, 60, 85, 69]
 ## Clase 4 - ejercicio 2
 
 ### Alumnos mayores y menores 👥
+> Explicación : Se pide clasificar según edad del empleado:
 ```Python
 emp = {
     'emp1': {'nombre': 'Ana', 'edad': 28},
@@ -297,9 +295,8 @@ for k, v in emp.items():
 print(f"menores: {menores}")
 print(f"total: {len(emp)}")
 ```
-**💻 Terminal:**
+**Instrucción 💻** ejecutar `$ python3 M2-06-09/ejer2.py`
 ```Bash
-$ python3 M2-06-09/ejer2.py
 emp2 Luis es mayor con 35 años
 emp4 Pedro es mayor con 40 años
 menores: ['Ana', 'María']
@@ -313,6 +310,7 @@ total: 4
 ## Clase 5 - ejercicio 1
 
 ### Modelado clase Auto (POO) 🚗
+> Explicación : Se pide modelar clase Auto e implementar su uso:
 ```Python
 class Auto():
     ESTADOS_POSIBLES = {"detenido", "circulando", "estacionado", "dañado"}
@@ -373,9 +371,8 @@ auto2.girar("derecha")
 auto2.frenar()
 auto2.estado_actual()
 ```
-**💻 Terminal:**
+**Instrucción 💻** ejecutar `$ python3 M2-06-11/ejer1-class.py`
 ```Bash
-$ python3 M2-06-11/ejer1-class.py
 imposible frenar no circulando
 Estado auto rojo: detenido
 acelerando
@@ -419,9 +416,8 @@ def uml_clase_auto():
 
 uml_clase_auto()
 ```
-**💻 Terminal:**
+**Instrucción 💻** ejecutar `$ python3 M2-06-11/ejer1-class2.py`
 ```Bash
-$ python3 M2-06-11/ejer1-class2.py
 Diagrama UML de clase Auto:
 ┌────────────────────────────┐
 │           Auto             │
