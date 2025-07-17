@@ -18,7 +18,7 @@ Además en este módulo se realizó el proyecto [PyLearningHub](https://github.c
 
 ## Clase 1 - ejercicio 1
 
-### Calculadora básica
+### Calculadora básica 🧮
 Construye un programa que simule una calculadora basica, pero cada operacion (suma, resta, multiplicacion, division) debe estar definida como una funcion diferente. Luego, crear una funcion principal que le pregunte al usuario que operacion desea realizar y la ejecute:
 ```Python
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
@@ -100,13 +100,13 @@ Resultado: 50
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
 ```
 
-> 💡 _Reflexión_ : Este ejercicio fue clave para comprender cómo estructurar funciones y controlar flujos básicos de programa según la entrada del usuario. También reforzó el manejo de errores como la división por cero.
+> 💡 _Reflexión_ : Este ejercicio fue clave para comprender cómo estructurar funciones y controlar flujos básicos de programa según la entrada del usuario. También reforzó el manejo de errores como la división por cero. En ingeniería de datos, estas operaciones son esenciales para crear pipelines de transformación de datos mediante cálculos aritméticos.
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 1 - ejercicio 2
 
-### Verifica mayor
+### Verifica mayor 🔞
 ```Python
 nombre = input("Nombre: ")
 edad = int(input("Edad: "))
@@ -140,13 +140,13 @@ Edad: 33
 Hola jose, eres mayor de edad
 ```
 
-> 💡 _Reflexión_ : Practicamos condicionales simples con entrada del usuario. Aunque fue sencillo, se entiende mejor cómo organizar la lógica para tomar decisiones y mejorar la legibilidad y mantenibilidad del código.
+> 💡 _Reflexión_ : Practicamos condicionales simples con entrada del usuario. Aunque fue sencillo, se entiende mejor cómo organizar la lógica para tomar decisiones y mejorar la legibilidad y mantenibilidad del código. La validación de datos es fundamental en procesos ETL, donde debemos verificar que los datos cumplan criterios específicos antes de procesarlos.
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 2 - ejercicio 1
 
-### Verifica beneficio
+### Verifica beneficio ✅
 ```Python
 nombre = input("Nombre:").capitalize()
 edad_str = input("Edad:")
@@ -174,13 +174,13 @@ País:chile
 Hola Jose de chile si puede acceder al beneficio
 ```
 
-> 💡 _Reflexión_ : Aquí aprendimos a validar entradas y a manejar errores con try/except. Esto es muy importante para evitar caídas inesperadas del programa y mejorar su robustez y confiabilidad.
+> 💡 _Reflexión_ : Aquí aprendimos a validar entradas y a manejar errores con try/except. Esto es muy importante para evitar caídas inesperadas del programa y mejorar su robustez y confiabilidad. El manejo de errores try/except es crítico al procesar datasets reales que pueden contener valores faltantes o inconsistentes.
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 3 - ejercicio 1
 
-### Verifica beneficio modularizado
+### Verifica beneficio modularizado 🔧
 `operaciones.py`:
 ```Python
 def ingreso():
@@ -233,13 +233,13 @@ País:chile
 Hola Jose (33 años) de Chile, cumple: True
 ```
 
-> 💡 _Reflexión_ : Modularizar el código es un paso indispensable ya que permite dividirlo en funciones y/o modulos reutilizables, lo cual mejora la organización, facilita el mantenimiento y prepara el programa para escalar.
+> 💡 _Reflexión_ : Modularizar el código es un paso indispensable ya que permite dividirlo en funciones y/o modulos reutilizables, lo cual mejora la organización, facilita el mantenimiento y prepara el programa para escalar. La modularización permite crear librerías de funciones de limpieza y validación que pueden reutilizarse en múltiples proyectos de datos.
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 4 - ejercicio 1
 
-### Promedio y aprobados
+### Promedio y aprobados 📊
 ```Python
 notas = []
 notas = [80,60,50,48,59,85,69,47]
@@ -270,13 +270,13 @@ aprobaron: 4
 aprobadas: [80, 60, 85, 69]
 ```
 
-> 💡 _Reflexión_ : En este ejercicio vimos cómo usar bucles y condicionales para analizar listas simples con datos. Y vimos maneras simples de clasificar la información, lo que es muy útil para reportes o análisis simples de información.
+> 💡 _Reflexión_ : En este ejercicio vimos cómo usar bucles y condicionales para analizar listas simples con datos. Y vimos maneras simples de clasificar la información, lo que es muy útil para reportes o análisis simples de información. Este tipo de análisis estadístico básico es la base para crear dashboards y reportes automáticos en sistemas de por ej: business intelligence.
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 4 - ejercicio 2
 
-### Alumnos mayores y menores
+### Alumnos mayores y menores 👥
 ```Python
 emp = {
     'emp1': {'nombre': 'Ana', 'edad': 28},
@@ -304,13 +304,13 @@ menores: ['Ana', 'María']
 total: 4
 ```
 
-> 💡 _Reflexión_ : Este ejercicio fortalece el uso de diccionarios anidados para representar estructuras complejas. Aprendimos a recorrerlos y aplicar lógica condicional sobre sus valores para poder sacarle el máximo provecho a las estructuras más complejas.
+> 💡 _Reflexión_ : Este ejercicio fortalece el uso de diccionarios anidados para representar estructuras complejas. Aprendimos a recorrerlos y aplicar lógica condicional sobre sus valores para poder sacarle el máximo provecho a estas estructuras. Trabajar con estructuras de datos nos prepara para manejar JSONs y datasets anidados comunes en APIs y bases de datos NoSQL.
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 5 - ejercicio 1
 
-### Modelado clase Auto (POO)
+### Modelado clase Auto (POO) 🚗
 ```Python
 class Auto():
     ESTADOS_POSIBLES = {"detenido", "circulando", "estacionado", "dañado"}
@@ -446,13 +446,13 @@ Atributo de clase:
 • ESTADOS_POSIBLES = {'detenido', 'circulando', 'estacionado', 'dañado'}
 ```
 
-> 💡 _Reflexión_ : Modelar con clases nos permite aplicar los principios de la POO. Entendimos cómo encapsular datos y comportamientos en objetos, y cómo definir comportamientos realistas para simular un caso del mundo real.
+> 💡 _Reflexión_ : Modelar con clases nos permite aplicar los principios de la POO. Entendimos cómo encapsular datos y comportamientos en objetos, y cómo definir comportamientos para simular un caso del mundo real. La POO permite modelar entidades de negocio reales, facilitando la creación de sistemas de gestión de datos útiles enfocados en el negocio.
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 6 - ejercicio 1
 
-### Excepción personalizada en sistema biblioteca
+### Excepción personalizada en sistema biblioteca 📚
 ```Python
 class Libro:
     def __init__(self, titulo, autor, stock):
@@ -511,6 +511,6 @@ Error definido: No hay stock disponible
 El catálogo implementa tipo de dato: <class 'dict'>
 ```
 
-> 💡 _Reflexión_ : Con este ejercicio entendimos cómo capturar excepciones completamente personalizadas, lo cual es simple y potente. Este ejercicio nos enseña la importancia de anticipar errores y mejorar la robustez del sistema.
+> 💡 _Reflexión_ : Con este ejercicio entendimos cómo capturar excepciones completamente personalizadas, lo cual es simple y potente. Este ejercicio nos enseña la importancia de anticipar errores y mejorar la robustez del sistema. La creación de excepciones nos permite identificar errores específicos mejorando la visibilidad del sistema.
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
