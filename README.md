@@ -140,6 +140,8 @@ Edad: 33
 Hola jose, eres mayor de edad
 ```
 
+> 💡 _Reflexión_ : Practicamos condicionales simples con entrada del usuario. Aunque fue sencillo, se entiende mejor cómo organizar la lógica para tomar decisiones y mejorar la legibilidad y mantenibilidad del código.
+
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 2 - ejercicio 1
