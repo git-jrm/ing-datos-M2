@@ -4,6 +4,8 @@ Este es el portafolio del módulo 2 del bootcamp de fundamentos de Ingeniería d
 
 En este espacio se reunen los ejercicios y `Scripts` desarrollados en clases, los conocimientos y experiencias aprendidas en el transcurso del bootcamp.
 
+También encontrarás por cada ejercicio una explicación detallada, instruccines para ejecutar, comentarios en las instrucciones y evidencia de pruebas.
+
 Además en este módulo se realizó el proyecto [PyLearningHub](https://github.com/git-jrm/PyLearningHub).
 
 ## Índice:
@@ -25,8 +27,8 @@ Además en este módulo se realizó el proyecto [PyLearningHub](https://github.c
 ```Python
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
 
-def suma(a, b):
-    return a + b
+def suma(a, b):  # define función que recibe 2 parametros
+    return a + b  # suma los valores y los devuelve
 def resta(a, b):
     return a - b
 def mult(a, b):
