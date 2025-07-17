@@ -174,6 +174,8 @@ País:chile
 Hola Jose de chile si puede acceder al beneficio
 ```
 
+> 💡 _Reflexión_ : Aquí aprendimos a validar entradas y a manejar errores con try/except. Esto es muy importante para evitar caídas inesperadas del programa y mejorar su robustez y confiabilidad.
+
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 3 - ejercicio 1
@@ -231,6 +233,8 @@ País:chile
 Hola Jose (33 años) de Chile, cumple: True
 ```
 
+> 💡 _Reflexión_ : Modularizar el código es un paso indispensable ya que permite dividirlo en funciones y/o modulos reutilizables, lo cual mejora la organización, facilita el mantenimiento y prepara el programa para escalar.
+
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 4 - ejercicio 1
@@ -266,6 +270,8 @@ aprobaron: 4
 aprobadas: [80, 60, 85, 69]
 ```
 
+> 💡 _Reflexión_ : En este ejercicio vimos cómo usar bucles y condicionales para analizar listas simples con datos. Y vimos maneras simples de clasificar la información, lo que es muy útil para reportes o análisis simples de información.
+
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 4 - ejercicio 2
@@ -297,6 +303,8 @@ emp4 Pedro es mayor con 40 años
 menores: ['Ana', 'María']
 total: 4
 ```
+
+> 💡 _Reflexión_ : Este ejercicio fortalece el uso de diccionarios anidados para representar estructuras complejas. Aprendimos a recorrerlos y aplicar lógica condicional sobre sus valores para poder sacarle el máximo provecho a las estructuras más complejas.
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
@@ -438,6 +446,8 @@ Atributo de clase:
 • ESTADOS_POSIBLES = {'detenido', 'circulando', 'estacionado', 'dañado'}
 ```
 
+> 💡 _Reflexión_ : Modelar con clases nos permite aplicar los principios de la POO. Entendimos cómo encapsular datos y comportamientos en objetos, y cómo definir comportamientos realistas para simular un caso del mundo real.
+
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 6 - ejercicio 1
@@ -500,5 +510,7 @@ Libro prestado: 1984
 Error definido: No hay stock disponible
 El catálogo implementa tipo de dato: <class 'dict'>
 ```
+
+> 💡 _Reflexión_ : Con este ejercicio entendimos cómo capturar excepciones completamente personalizadas, lo cual es simple y potente. Este ejercicio nos enseña la importancia de anticipar errores y mejorar la robustez del sistema.
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
