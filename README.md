@@ -78,8 +78,6 @@ while True:
 **💻 Terminal:**
 ```Bash
 $ python3 M2-06-02/01-calc2.py
-```
-```text
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 2
 Número 1: 100
 Número 2: 99
@@ -103,9 +101,8 @@ else:
 **💻 Terminal:**
 ```Bash
 $ python3 M2-06-02/02-mayor.py
-
-```
-```text
+Nombre: jose
+Edad: 33
 Hola jose, eres mayor de edad
 ```
 
@@ -122,12 +119,13 @@ else:
 **💻 Terminal:**
 ```Bash
 $ python3 M2-06-
-```
-```text
-
+Nombre: jose
+Edad: 33
+Hola jose, eres mayor de edad
 ```
 
 ## Ejercicio clase 2 - AE2
+
 ### #1 Verifica beneficio
 ```Python
 nombre = input("Nombre:").capitalize()
@@ -145,6 +143,13 @@ if elegible:
     print(f"Hola {nombre} de {pais} si puede acceder al beneficio")
 else:
     print(f"Hola {nombre} de {pais} no puede acceder al beneficio")
+```
+**💻 Terminal:**
+```Bash
+$ python3 M2-06-
+```
+```text
+
 ```
 
 ## Ejercicio clase 3 - AE3
@@ -192,8 +197,16 @@ import operaciones
 
 print(operaciones.main())
 ```
+**💻 Terminal:**
+```Bash
+$ python3 M2-06-
+```
+```text
+
+```
 
 ## Ejercicio clase 4 - AE4
+
 ### #1 Promedio y aprobados
 ```Python
 notas = []
@@ -217,6 +230,14 @@ print(f"promedio: {promedio}")
 print(f"aprobaron: {aprobaron}")
 print(f"aprobadas: {aprobadas}")
 ```
+**💻 Terminal:**
+```Bash
+$ python3 M2-06-
+```
+```text
+
+```
+
 ### #2 Alumnos mayores y menores
 ```Python
 emp = {
@@ -235,6 +256,13 @@ for k, v in emp.items():
 
 print(f"menores: {menores}")
 print(f"total: {len(emp)}")
+```
+**💻 Terminal:**
+```Bash
+$ python3 M2-06-
+```
+```text
+
 ```
 
 ## Ejercicio clase 5 - AE5
@@ -299,6 +327,14 @@ auto2.girar("derecha")
 auto2.frenar()
 auto2.estado_actual()
 ```
+**💻 Terminal:**
+```Bash
+$ python3 M2-06-
+```
+```text
+
+```
+
 ### BONUS: diagrama UML clase Auto
 ```Python
 # BONUS
@@ -329,8 +365,16 @@ def uml_clase_auto():
 
 uml_clase_auto()
 ```
+**💻 Terminal:**
+```Bash
+$ python3 M2-06-
+```
+```text
+
+```
 
 ## Ejercicio clase 6 - AE6
+
 ### #1 Excepción personalizada en sistema biblioteca
 ```Python
 class Libro:
@@ -380,4 +424,11 @@ finally:
     biblioteca = None
     libro1 = None
     libro2 = None
+```
+**💻 Terminal:**
+```Bash
+$ python3 M2-06-
+```
+```text
+
 ```
