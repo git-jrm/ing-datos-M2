@@ -6,9 +6,9 @@ En este espacio se reunen los ejercicios desarrollados en clases, los conocimien
 
 Además en este módulo se realizó el proyecto [PyLearningHub](https://github.com/git-jrm/PyLearningHub).
 
-## Clase 1 - AE1
+## Clase 1 - ejercicio 1
 
-### #1 Calculadora básica
+### Calculadora básica
 Construye un programa que simule una calculadora basica, pero cada operacion (suma, resta, multiplicacion, division) debe estar definida como una funcion diferente. Luego, crear una funcion principal que le pregunte al usuario que operacion desea realizar y la ejecute:
 ```Python
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
@@ -51,7 +51,6 @@ Número 2: 0
 Error: División por cero
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
 ```
-
 Versión optimizada con `eval`:
 ```Python
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
@@ -91,7 +90,9 @@ Resultado: 50
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
 ```
 
-### #2 Verifica mayor
+## Clase 1 - ejercicio 2
+
+### Verifica mayor
 ```Python
 nombre = input("Nombre: ")
 edad = int(input("Edad: "))
@@ -107,7 +108,6 @@ Nombre: jose
 Edad: 33
 Hola jose, eres mayor de edad
 ```
-
 Versión estilizada con asignación de condicional:
 ```Python
 nombre = input("Nombre: ")
@@ -126,9 +126,9 @@ Edad: 33
 Hola jose, eres mayor de edad
 ```
 
-## Ejercicio clase 2 - AE2
+## Clase 2 - ejercicio 1
 
-### #1 Verifica beneficio
+### Verifica beneficio
 ```Python
 nombre = input("Nombre:").capitalize()
 edad_str = input("Edad:")
@@ -156,8 +156,9 @@ País:chile
 Hola Jose de chile si puede acceder al beneficio
 ```
 
-## Ejercicio clase 3 - AE3
-### #1 Verifica beneficio modularizado
+## Clase 3 - ejercicio 1
+
+### Verifica beneficio modularizado
 `operaciones.py`:
 ```Python
 def ingreso():
@@ -210,9 +211,9 @@ País:chile
 Hola Jose (33 años) de Chile, cumple: True
 ```
 
-## Ejercicio clase 4 - AE4
+## Clase 4 - ejercicio 1
 
-### #1 Promedio y aprobados
+### Promedio y aprobados
 ```Python
 notas = []
 notas = [80,60,50,48,59,85,69,47]
@@ -243,7 +244,9 @@ aprobaron: 4
 aprobadas: [80, 60, 85, 69]
 ```
 
-### #2 Alumnos mayores y menores
+## Clase 4 - ejercicio 2
+
+### Alumnos mayores y menores
 ```Python
 emp = {
     'emp1': {'nombre': 'Ana', 'edad': 28},
@@ -271,8 +274,9 @@ menores: ['Ana', 'María']
 total: 4
 ```
 
-## Ejercicio clase 5 - AE5
-### #1 Modelado clase Auto (POO)
+## Clase 5 - ejercicio 1
+
+### Modelado clase Auto (POO)
 ```Python
 class Auto():
     ESTADOS_POSIBLES = {"detenido", "circulando", "estacionado", "dañado"}
@@ -353,7 +357,7 @@ Estado auto azul: detenido
 ```Python
 # BONUS
 def uml_clase_auto():
-    print("UML de Clase: Auto\n")
+    print("Diagrama UML de clase Auto:   ")
     print("┌────────────────────────────┐")
     print("│           Auto             │")
     print("├────────────────────────────┤")
@@ -382,8 +386,7 @@ uml_clase_auto()
 **💻 Terminal:**
 ```Bash
 $ python3 M2-06-11/ejer1-class2.py
-UML de Clase: Auto
-
+Diagrama UML de clase Auto:
 ┌────────────────────────────┐
 │           Auto             │
 ├────────────────────────────┤
@@ -409,9 +412,9 @@ Atributo de clase:
 • ESTADOS_POSIBLES = {'detenido', 'circulando', 'estacionado', 'dañado'}
 ```
 
-## Ejercicio clase 6 - AE6
+## Clase 6 - ejercicio 1
 
-### #1 Excepción personalizada en sistema biblioteca
+### Excepción personalizada en sistema biblioteca
 ```Python
 class Libro:
     def __init__(self, titulo, autor, stock):
