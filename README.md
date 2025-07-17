@@ -118,7 +118,7 @@ else:
 ```
 **💻 Terminal:**
 ```Bash
-$ python3 M2-06-
+$ python3 M2-06-02/02-mayor2.py
 Nombre: jose
 Edad: 33
 Hola jose, eres mayor de edad
@@ -146,10 +146,12 @@ else:
 ```
 **💻 Terminal:**
 ```Bash
-$ python3 M2-06-
-```
-```text
-
+$ python3 M2-06-04/ejer1-except.py
+python3 M2-06-04/ejer1-except.py
+Nombre:jose
+Edad:33
+País:chile
+Hola Jose de chile si puede acceder al beneficio
 ```
 
 ## Ejercicio clase 3 - AE3
@@ -199,10 +201,11 @@ print(operaciones.main())
 ```
 **💻 Terminal:**
 ```Bash
-$ python3 M2-06-
-```
-```text
-
+$ python3 M2-06-06/main.py       
+Nombre:jose
+Edad:33
+País:chile
+Hola Jose (33 años) de Chile, cumple: True
 ```
 
 ## Ejercicio clase 4 - AE4
