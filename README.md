@@ -15,6 +15,8 @@ Además en este módulo se realizó el proyecto [PyLearningHub](https://github.c
 - [Clase 4 - ejercicio 2 : Alumnos mayores y menores](#clase-4---ejercicio-2)
 - [Clase 5 - ejercicio 1 : Modelado clase Auto](#clase-5---ejercicio-1)
 - [Clase 6 - ejercicio 1 : Excepción personalizada](#clase-6---ejercicio-1)
+- Evolución del Aprendizaje
+- 
 
 ## Clase 1 - ejercicio 1
 
@@ -524,11 +526,11 @@ En este módulo repasamos desde conceptos básicos de programación (calculadora
 - **Escalabilidad**: Modularización y reutilización
 - **Modelado**: POO para representar entidades complejas
 
-Este crecimiento logrado a lo largo de todas las actividades de este módulo nos prepara no solo para los siguientes módulos, sino para enfrentar desafíos reales y construir sistemas robustos y escalables en el manejo del lenguaje Python en diversos escenarios de ingeniería de datos.
+Este crecimiento logrado a lo largo de todas las actividades, trabajos y ejercicios, ha sido secuencial y ha ido de menos a más.
 
-## Conclusión Módulo 2 🌟
+## Conclusión 🌟
 
-Este módulo ha sido un pilar fundamental en nuestra formación, consolidando desde los principios básicos de la programación hasta la maestría en Programación Orientada a Objetos y el manejo avanzado de excepciones. Cada ejercicio y reflexión ha forjado una base sólida, transformando el conocimiento teórico en habilidades prácticas esenciales.
+Este **Módulo 2** ha sido un pilar fundamental en nuestra formación, consolidando desde los principios básicos de la programación hasta la maestría en Programación Orientada a Objetos y el manejo avanzado de excepciones. Cada ejercicio y reflexión ha forjado una base sólida, transformando el conocimiento teórico en habilidades prácticas esenciales.
 
 Este crecimiento logrado a lo largo de todas las actividades nos prepara no solo para los siguientes módulos, sino para enfrentar desafíos reales y construir sistemas robustos y escalables en el manejo del lenguaje Python en diversos escenarios de ingeniería de datos. ¡Estamos listos para el próximo nivel! 
 
