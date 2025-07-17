@@ -15,8 +15,8 @@ Además en este módulo se realizó el proyecto [PyLearningHub](https://github.c
 - [Clase 4 - ejercicio 2 : Alumnos mayores y menores](#clase-4---ejercicio-2)
 - [Clase 5 - ejercicio 1 : Modelado clase Auto](#clase-5---ejercicio-1)
 - [Clase 6 - ejercicio 1 : Excepción personalizada](#clase-6---ejercicio-1)
-- Evolución del Aprendizaje
-- 
+- [Evolución del Aprendizaje](#evolución-del-aprendizaje-)
+- [Conclusión](#conclusión-)
 
 ## Clase 1 - ejercicio 1
 
