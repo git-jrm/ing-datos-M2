@@ -21,7 +21,7 @@ Además en este módulo se realizó el proyecto [PyLearningHub](https://github.c
 ## Clase 1 - ejercicio 1
 
 ### Calculadora básica 🧮
-Construye un programa que simule una calculadora basica, pero cada operacion (suma, resta, multiplicacion, division) debe estar definida como una funcion diferente. Luego, crear una funcion principal que le pregunte al usuario que operacion desea realizar y la ejecute:
+> Explicación : Se pide construir un programa que simule una calculadora basica, pero cada operacion (suma, resta, multiplicacion, division) debe estar definida como una funcion diferente. Luego, crear una funcion principal que le pregunte al usuario que operacion desea realizar y la ejecute:
 ```Python
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
 
@@ -50,9 +50,9 @@ while True:
         elif op == 4: print(f"Resultado: {div(a, b)}")
         #print(f"Resultado: {eval(f'{a}{ops[op]}{b}')}")
 ```
-**💻 Terminal:**
+**Instrucciones 💻**
+ejecutar `$ python3 M2-06-02/01-calc.py`
 ```bash
-$ python3 M2-06-02/01-calc.py
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 1
 Número 1: 10
 Número 2: 33
