@@ -5,6 +5,7 @@ Este es el portafolio del módulo 2 del bootcamp de fundamentos de Ingeniería d
 En este espacio se reunen los ejercicios desarrollados en clases, link al repo del proyecto del módulo (PyLearningHub), así como también los conocimientos y experiencias aprendidas en el transcurso.
 
 ## Clase 1 - AE1
+
 ### #1 Calculadora básica
 Construye un programa que simule una calculadora basica, pero cada operacion (suma, resta, multiplicacion, division) debe estar definida como una funcion diferente. Luego, crear una funcion principal que le pregunte al usuario que operacion desea realizar y la ejecute:
 ```Python
@@ -36,20 +37,19 @@ while True:
         #print(f"Resultado: {eval(f'{a}{ops[op]}{b}')}")
 ```
 **💻 Terminal:**
-```Bash
+```bash
 $ python3 M2-06-02/01-calc.py
-```
-```text
-Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 2
-Número 1: 100
-Número 2: 99
-Resultado: 1
+Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 1
+Número 1: 10
+Número 2: 33
+Resultado: 43
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 4
 Número 1: 4
 Número 2: 0
 Error: División por cero
 Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
 ```
+
 Versión optimizada con `eval`:
 ```Python
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
@@ -75,6 +75,22 @@ while True:
     else:
         print(f"Resultado: {eval(f'{a}{ops[op]}{b}')}")
 ```
+**💻 Terminal:**
+```Bash
+$ python3 M2-06-02/01-calc2.py
+```
+```text
+Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 2
+Número 1: 100
+Número 2: 99
+Resultado: 1
+Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 3
+Número 1: 5
+Número 2: 10
+Resultado: 50
+Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
+```
+
 ### #2 Verifica mayor
 ```Python
 nombre = input("Nombre: ")
@@ -84,6 +100,15 @@ if edad >= 18:
 else:
     print(f"Hola {nombre}, eres menor de edad")
 ```
+**💻 Terminal:**
+```Bash
+$ python3 M2-06-02/02-mayor.py
+
+```
+```text
+Hola jose, eres mayor de edad
+```
+
 Versión estilizada con asignación de condicional:
 ```Python
 nombre = input("Nombre: ")
@@ -93,6 +118,13 @@ if mayor_de_edad:
     print(f"Hola {nombre}, eres mayor de edad")
 else:
     print(f"Hola {nombre}, eres menor de edad")
+```
+**💻 Terminal:**
+```Bash
+$ python3 M2-06-
+```
+```text
+
 ```
 
 ## Ejercicio clase 2 - AE2
