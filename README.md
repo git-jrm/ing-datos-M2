@@ -7,14 +7,14 @@ En este espacio se reunen los ejercicios desarrollados en clases, los conocimien
 Además en este módulo se realizó el proyecto [PyLearningHub](https://github.com/git-jrm/PyLearningHub).
 
 ## Índice:
-- [Clase 1 - ejercicio 1](#clase-1---ejercicio-1)
-- [Clase 1 - ejercicio 2](#clase-1---ejercicio-2)
-- [Clase 2 - ejercicio 1](#clase-2---ejercicio-1)
-- [Clase 3 - ejercicio 1](#clase-3---ejercicio-1)
-- [Clase 4 - ejercicio 1](#clase-4---ejercicio-1)
-- [Clase 4 - ejercicio 2](#clase-4---ejercicio-2)
-- [Clase 5 - ejercicio 1](#clase-5---ejercicio-1)
-- [Clase 6 - ejercicio 1](#clase-6---ejercicio-1)
+- [Clase 1 - ejercicio 1 : Calculadora básica](#clase-1---ejercicio-1)
+- [Clase 1 - ejercicio 2 : Verifica mayor](#clase-1---ejercicio-2)
+- [Clase 2 - ejercicio 1 : Verifica beneficio](#clase-2---ejercicio-1)
+- [Clase 3 - ejercicio 1 : Verifica beneficio modularizado](#clase-3---ejercicio-1)
+- [Clase 4 - ejercicio 1 : Promedio y aprobados](#clase-4---ejercicio-1)
+- [Clase 4 - ejercicio 2 : Alumnos mayores y menores](#clase-4---ejercicio-2)
+- [Clase 5 - ejercicio 1 : Modelado clase Auto](#clase-5---ejercicio-1)
+- [Clase 6 - ejercicio 1 : Excepción personalizada](#clase-6---ejercicio-1)
 
 ## Clase 1 - ejercicio 1
 
