@@ -138,6 +138,8 @@ Edad: 33
 Hola jose, eres mayor de edad
 ```
 
+[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+
 ## Clase 2 - ejercicio 1
 
 ### Verifica beneficio
@@ -167,6 +169,8 @@ Edad:33
 País:chile
 Hola Jose de chile si puede acceder al beneficio
 ```
+
+[Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 3 - ejercicio 1
 
@@ -223,6 +227,8 @@ País:chile
 Hola Jose (33 años) de Chile, cumple: True
 ```
 
+[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+
 ## Clase 4 - ejercicio 1
 
 ### Promedio y aprobados
@@ -256,6 +262,8 @@ aprobaron: 4
 aprobadas: [80, 60, 85, 69]
 ```
 
+[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+
 ## Clase 4 - ejercicio 2
 
 ### Alumnos mayores y menores
@@ -285,6 +293,8 @@ emp4 Pedro es mayor con 40 años
 menores: ['Ana', 'María']
 total: 4
 ```
+
+[Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
 ## Clase 5 - ejercicio 1
 
@@ -424,6 +434,8 @@ Atributo de clase:
 • ESTADOS_POSIBLES = {'detenido', 'circulando', 'estacionado', 'dañado'}
 ```
 
+[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+
 ## Clase 6 - ejercicio 1
 
 ### Excepción personalizada en sistema biblioteca
@@ -484,3 +496,5 @@ Libro prestado: 1984
 Error definido: No hay stock disponible
 El catálogo implementa tipo de dato: <class 'dict'>
 ```
+
+[Volver](#portafolio-módulo-2---ingeniería-de-datos)
