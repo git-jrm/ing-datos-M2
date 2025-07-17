@@ -191,6 +191,7 @@ print(f"total: {len(emp)}")
 ```
 
 ## Ejercicio clase 5 - AE5
+### #1 Programación Orientada a Objetos - POO
 ```
 class Auto():
     ESTADOS_POSIBLES = {"detenido", "circulando", "estacionado", "dañado"}
@@ -253,7 +254,7 @@ auto2.estado_actual()
 ```
 
 ## Ejercicio clase 6 - AE6
-### #1 
+### #1 Excepción personalizada
 ```
 class Libro:
     def __init__(self, titulo, autor, stock):
