@@ -235,10 +235,10 @@ print(f"aprobadas: {aprobadas}")
 ```
 **💻 Terminal:**
 ```Bash
-$ python3 M2-06-
-```
-```text
-
+$ python3 M2-06-09/ejer1.py              
+promedio: 62.25
+aprobaron: 4
+aprobadas: [80, 60, 85, 69]
 ```
 
 ### #2 Alumnos mayores y menores
@@ -262,10 +262,11 @@ print(f"total: {len(emp)}")
 ```
 **💻 Terminal:**
 ```Bash
-$ python3 M2-06-
-```
-```text
-
+$ python3 M2-06-09/ejer2.py
+emp2 Luis es mayor con 35 años
+emp4 Pedro es mayor con 40 años
+menores: ['Ana', 'María']
+total: 4
 ```
 
 ## Ejercicio clase 5 - AE5
@@ -332,10 +333,18 @@ auto2.estado_actual()
 ```
 **💻 Terminal:**
 ```Bash
-$ python3 M2-06-
-```
-```text
-
+$ python3 M2-06-11/ejer1-class.py
+imposible frenar no circulando
+Estado auto rojo: detenido
+acelerando
+automóvil gira a izquierda.
+automóvil gira a derecha.
+automóvil gira a izquierda.
+Estado auto rojo: detenido
+Estado auto azul: detenido
+acelerando
+automóvil gira a derecha.
+Estado auto azul: detenido
 ```
 
 ### BONUS: diagrama UML clase Auto
@@ -370,10 +379,32 @@ uml_clase_auto()
 ```
 **💻 Terminal:**
 ```Bash
-$ python3 M2-06-
-```
-```text
+$ python3 M2-06-11/ejer1-class2.py
+UML de Clase: Auto
 
+┌────────────────────────────┐
+│           Auto             │
+├────────────────────────────┤
+│ - estado: str              │
+│ - color: str               │
+│ - peso: float              │
+│ - tamaño: str              │
+│ - alto: float              │
+│ - largo: float             │
+│ - n_ruedas: int            │
+│ - n_puertas: int           │
+│ - tipo: str                │
+├────────────────────────────┤
+│ + __init__(...)            │
+│ + arrancar()               │
+│ + frenar()                 │
+│ + acelerar()               │
+│ + girar(direccion)         │
+│ + estado_actual()          │
+└────────────────────────────┘
+
+Atributo de clase:
+• ESTADOS_POSIBLES = {'detenido', 'circulando', 'estacionado', 'dañado'}
 ```
 
 ## Ejercicio clase 6 - AE6
@@ -430,8 +461,9 @@ finally:
 ```
 **💻 Terminal:**
 ```Bash
-$ python3 M2-06-
-```
-```text
-
+$ python3 M2-06-13/ejer1.py      
+Libro prestado: 1984
+Libro prestado: 1984
+Error definido: No hay stock disponible
+El catálogo implementa tipo de dato: <class 'dict'>
 ```
