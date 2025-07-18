@@ -23,7 +23,7 @@ Además en este módulo se realizó el proyecto [PyLearningHub](https://github.c
 ## Clase 1 - ejercicio 1
 
 ### Calculadora básica 🧮
-> Explicación : Se pide construir un programa que simule una calculadora basica, pero cada operacion (suma, resta, multiplicacion, division) debe estar definida como una funcion diferente. Luego, crear una funcion principal que le pregunte al usuario que operacion desea realizar y la ejecute:
+> Explicación : Se pide construir un programa que simule una calculadora basica, pero cada operacion (suma, resta, multiplicacion, division) debe estar definida como una funcion diferente. Luego, crear una funcion principal que le pregunte al usuario que operación desea realizar y la ejecute:
 ```Python
 ops = {1: '+', 2: '-', 3: '*', 4: '/'}
 
