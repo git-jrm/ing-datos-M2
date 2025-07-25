@@ -1,4 +1,5 @@
-# Portafolio módulo 2 - Python para ingenieros de datos
+# Portafolio módulo 2
+## Python para ingenieros de datos
 
 Este es el portafolio del módulo 2 del bootcamp de fundamentos de Ingeniería de Datos. 🚀
 
