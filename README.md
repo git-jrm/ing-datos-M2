@@ -20,7 +20,7 @@ Además en este módulo se realizó el proyecto [PyLearningHub](https://github.c
 - [Clase 5 - ejercicio 1 : Modelado clase Auto](#clase-5---ejercicio-1)
 - [Clase 6 - ejercicio 1 : Excepción personalizada](#clase-6---ejercicio-1)
 - [Evolución del Aprendizaje](#evolución-del-aprendizaje-)
-- [Conclusión](#conclusión-)
+- [Conclusiones](#conclusiones-)
 
 ## Clase 1 - ejercicio 1
 
@@ -531,7 +531,7 @@ Este crecimiento logrado a lo largo de todas las actividades, trabajos y ejercic
 
 [Volver](#portafolio-módulo-2---ingeniería-de-datos)
 
-## Conclusión 🌟
+## Conclusiones 🌟
 
 Este **Módulo 2** ha sido un pilar fundamental en nuestra formación, consolidando desde los principios básicos de la programación hasta la maestría en Programación Orientada a Objetos y el manejo avanzado de excepciones. Cada ejercicio y reflexión ha forjado una base sólida, transformando el conocimiento teórico en habilidades prácticas esenciales.
 
