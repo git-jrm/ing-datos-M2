@@ -516,7 +516,7 @@ El catálogo implementa tipo de dato: <class 'dict'>
 
 > 💡 _Reflexión_ : Con este ejercicio entendimos cómo capturar excepciones completamente personalizadas, lo cual es simple y potente. Este ejercicio nos enseña la importancia de anticipar errores y mejorar la robustez del sistema. La creación de excepciones nos permite identificar errores específicos mejorando la visibilidad del sistema.
 
-[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+[Volver](#m2-python-para-ingenieros-de-datos)
 
 
 ## Evolución del Aprendizaje 📈
@@ -529,7 +529,7 @@ En este módulo repasamos desde conceptos básicos de programación (calculadora
 
 Este crecimiento logrado a lo largo de todas las actividades, trabajos y ejercicios, ha sido secuencial y ha ido de menos a más.
 
-[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+[Volver](#m2-python-para-ingenieros-de-datos)
 
 ## Conclusiones 🌟
 
@@ -537,7 +537,9 @@ Este **Módulo 2** ha sido un pilar fundamental en nuestra formación, consolida
 
 Este crecimiento logrado a lo largo de todas las actividades nos prepara no solo para los siguientes módulos, sino para enfrentar desafíos reales y construir sistemas robustos y escalables en el manejo del lenguaje Python en diversos escenarios de ingeniería de datos. ¡Estamos listos para el próximo nivel! 
 
-[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+[Volver](#m2-python-para-ingenieros-de-datos)
+
+
 
 
 
