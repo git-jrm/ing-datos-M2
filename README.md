@@ -451,7 +451,7 @@ Atributo de clase:
 
 > 💡 _Reflexión_ : Modelar con clases nos permite aplicar los principios de la POO. Entendimos cómo encapsular datos y comportamientos en objetos, y cómo definir comportamientos para simular un caso del mundo real. La POO permite modelar entidades de negocio reales, facilitando la creación de sistemas de gestión de datos útiles enfocados en el negocio.
 
-[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+[Volver](#m2-python-para-ingenieros-de-datos)
 
 ## Clase 6 - ejercicio 1
 
@@ -517,7 +517,6 @@ El catálogo implementa tipo de dato: <class 'dict'>
 > 💡 _Reflexión_ : Con este ejercicio entendimos cómo capturar excepciones completamente personalizadas, lo cual es simple y potente. Este ejercicio nos enseña la importancia de anticipar errores y mejorar la robustez del sistema. La creación de excepciones nos permite identificar errores específicos mejorando la visibilidad del sistema.
 
 [Volver](#m2-python-para-ingenieros-de-datos)
-
 
 ## Evolución del Aprendizaje 📈
 
