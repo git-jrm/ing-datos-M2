@@ -106,7 +106,7 @@ Elija opcion:   (1)+   (2)-   (3)*   (4)/   (5)Salir   : 5
 
 > 💡 _Reflexión_ : Este ejercicio fue clave para comprender cómo estructurar funciones y controlar flujos básicos de programa según la entrada del usuario. También reforzó el manejo de errores como la división por cero. En ingeniería de datos, estas operaciones son esenciales para crear pipelines de transformación de datos mediante cálculos aritméticos.
 
-[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+[Volver](#m2-python-para-ingenieros-de-datos)
 
 ## Clase 1 - ejercicio 2
 
@@ -145,7 +145,7 @@ Hola jose, eres mayor de edad
 
 > 💡 _Reflexión_ : Practicamos condicionales simples con entrada del usuario. Aunque fue sencillo, se entiende mejor cómo organizar la lógica para tomar decisiones y mejorar la legibilidad y mantenibilidad del código. La validación de datos es fundamental en procesos ETL, donde debemos verificar que los datos cumplan criterios específicos antes de procesarlos.
 
-[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+[Volver](#m2-python-para-ingenieros-de-datos)
 
 ## Clase 2 - ejercicio 1
 
@@ -179,7 +179,7 @@ Hola Jose de chile si puede acceder al beneficio
 
 > 💡 _Reflexión_ : Aquí aprendimos a validar entradas y a manejar errores con try/except. Esto es muy importante para evitar caídas inesperadas del programa y mejorar su robustez y confiabilidad. El manejo de errores try/except es crítico al procesar datasets reales que pueden contener valores faltantes o inconsistentes.
 
-[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+[Volver](#m2-python-para-ingenieros-de-datos)
 
 ## Clase 3 - ejercicio 1
 
@@ -238,7 +238,7 @@ Hola Jose (33 años) de Chile, cumple: True
 
 > 💡 _Reflexión_ : Modularizar el código es un paso indispensable ya que permite dividirlo en funciones y/o modulos reutilizables, lo cual mejora la organización, facilita el mantenimiento y prepara el programa para escalar. La modularización permite crear librerías de funciones de limpieza y validación que pueden reutilizarse en múltiples proyectos de datos.
 
-[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+[Volver](#m2-python-para-ingenieros-de-datos)
 
 ## Clase 4 - ejercicio 1
 
@@ -275,7 +275,7 @@ aprobadas: [80, 60, 85, 69]
 
 > 💡 _Reflexión_ : En este ejercicio vimos cómo usar bucles y condicionales para analizar listas simples con datos. Y vimos maneras simples de clasificar la información, lo que es muy útil para reportes o análisis simples de información. Este tipo de análisis estadístico básico es la base para crear dashboards y reportes automáticos en sistemas de por ej: business intelligence.
 
-[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+[Volver](#m2-python-para-ingenieros-de-datos)
 
 ## Clase 4 - ejercicio 2
 
@@ -309,7 +309,7 @@ total: 4
 
 > 💡 _Reflexión_ : Este ejercicio fortalece el uso de diccionarios anidados para representar estructuras complejas. Aprendimos a recorrerlos y aplicar lógica condicional sobre sus valores para poder sacarle el máximo provecho a estas estructuras. Trabajar con estructuras de datos nos prepara para manejar JSONs y datasets anidados comunes en APIs y bases de datos NoSQL.
 
-[Volver](#portafolio-módulo-2---ingeniería-de-datos)
+[Volver](#m2-python-para-ingenieros-de-datos)
 
 ## Clase 5 - ejercicio 1
 
